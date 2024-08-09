@@ -1,0 +1,128 @@
+/* Contenedor del formulario */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffc107; /* Col/* Estilos para la página de registro */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffc107; /* Color amarillo para texto */
+}
+.homepage-title {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e1e; /* Fondo más claro para el formulario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-form input {
+  background-color: #2c2c2c; /* Fondo oscuro para los campos de entrada */
+  color: #ffc107; /* Color amarillo para el texto de los campos */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.register-form input::placeholder {
+  color: #ffc107; /* Color amarillo para el texto del placeholder */
+}
+
+.register-form button {
+  background-color: rgba(0, 123, 255, 0.7); /* Azul claro */
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.register-form button:hover {
+  background-color: #ffc107; /* Cambio a amarillo en hover */
+  color: #121212; /* Texto oscuro en hover */
+}
+
+.register-form p {
+  color: #ff4d4d; /* Color rojo para los mensajes de error */
+}
+
+}
+
+.register-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #1f1f1f; /* Fondo ligeramente más claro para el formulario */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #2b2b2b; /* Fondo oscuro para los inputs */
+  color: #ffc107; /* Texto amarillo */
+  border: none;
+  border-radius: 5px;
+}
+
+.register-form input::placeholder {
+  color: #b3b3b3; /* Placeholder en gris claro */
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc107; /* Botón amarillo */
+  color: #121212; /* Texto oscuro */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.register-form button:hover {
+  background-color: #e0a800; /* Color más oscuro en hover */
+}
+
+.register-form p {
+  color: #ff4d4d; /* Color rojo para mensajes de error */
+  margin-top: 10px;
+  text-align: center;
+}
+/* Estilos para el enlace de regresar a la página de inicio */
+.go-home-link {
+  display: block;
+  margin-top: 10px; /* Espacio entre el botón de registrarse y el enlace */
+  color: #ffc107; /* Color amarillo para el enlace */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 1rem;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.go-home-link:hover {
+  color: #fff; /* Cambio a blanco en hover */
+}
+
